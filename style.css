@@ -1,0 +1,63 @@
+/* style.css */
+
+/* 全体のフォントと背景のスタイルを設定します。 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* コンテナーのスタイルを設定します。 */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* ヘッダーのスタイルを設定します。 */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* メインセクションのスタイルを設定します。 */
+.main {
+    margin-top: 20px;
+}
+
+/* ボタンの基本スタイルを設定します。 */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+}
+
+/* ボタンを押したときのスタイルを設定します。 */
+.button:hover { background-color: #3e8e41 }
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* ボタンが無効化されているときのスタイルを設定します。 */
+.button.disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+/* その他の要素やクラスに対するスタイルをここに追加... */
